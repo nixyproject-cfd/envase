@@ -1,0 +1,33 @@
+{
+  "extends": null,
+  "appId": "com.ameerthehacker.Envase",
+  "mac": {
+    "icon": "./media/icons/mac/icon.icns",
+    "publish": ["github"]
+  },
+  "win": {
+    "icon": "./media/icons/win/icon.ico",
+    "publish": ["github"]
+  },
+  "linux": {
+    "publish": ["github"]
+  },
+  "files": [
+    "**",
+    "!src",
+    "build",
+    "src/constants.js",
+    "!dist",
+    "!scripts",
+    "!tests",
+    "!public",
+    "!.prettierrc.json",
+    "!.eslintrc.json",
+    "!README.md",
+    "!.prettierignore",
+    "!.eslintignore",
+    "!LICENSE",
+    "!tsconfig.json",
+    "!electron.build.json"
+  ]
+}
